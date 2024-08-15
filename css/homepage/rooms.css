@@ -1,0 +1,39 @@
+section.rooms .cards {
+  width: 100%;
+  gap: 48px;
+}
+section.rooms .cards .card {
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+section.rooms .cards .card .room-image {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+section.rooms .cards .card .body-text {
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+}
+section.rooms .cards .card .body-text .title {
+  text-transform: uppercase;
+}
+
+section.rooms .cards .card .body-text button {
+  width: 100%;
+}
+
+section.rooms .cards .card .body-text button a {
+  width: 100%;
+  font-family: var(--ff-inter);
+  color: var(--clr-200);
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--clr-200);
+}
