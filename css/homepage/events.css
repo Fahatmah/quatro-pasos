@@ -15,6 +15,12 @@ section.events .cards .card {
   border-radius: 4px;
   border: 1px solid var(--clr-200);
   overflow: hidden;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+section.events .cards .card:hover {
+  background-color: hsl(30, 99%, 71%, 0.08);
 }
 
 section.events .cards .card .event-image {
@@ -65,7 +71,16 @@ section.events .cards .card .body-text button a {
   border: 1px solid var(--clr-400);
 }
 
+section.events .cards .card .body-text button:hover a {
+  color: var(--clr-100);
+  background-color: var(--clr-400);
+}
+
 section.events .cards .card .body-text button a img {
   width: 24px;
   height: 24px;
+}
+
+section.events .cards .card .body-text button:hover a img {
+  filter: invert(1);
 }

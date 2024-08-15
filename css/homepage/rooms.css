@@ -37,3 +37,12 @@ section.rooms .cards .card .body-text button a {
   border-radius: 4px;
   border: 1px solid var(--clr-200);
 }
+
+section.rooms .cards .card .body-text button:hover a {
+  color: var(--clr-400);
+  background-color: var(--clr-200);
+}
+
+section.rooms .cards .card .body-text button:hover a img {
+  filter: invert(1);
+}

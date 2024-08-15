@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background: none;
+}
+
+a,
+li {
+  transition: 200ms ease-in-out;
+}
+
+:root {
+  --clr-100: #ffffff;
+  --clr-200: #feb46b;
+  --clr-300: #282828;
+  --clr-400: #000000;
+
+  --ff-pd: 'Playfair Display', sans-serif;
+  --ff-inter: 'Inter', sans-serif;
+  --fs-def: 1rem;
+
+  --body-ff: var(--ff-pd);
+
+  --w: min(100% - 0rem, 92rem);
+
+  --d: 1px solid red;
+}
+
+/* utilities */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

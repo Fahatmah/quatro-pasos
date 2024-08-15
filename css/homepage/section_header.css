@@ -48,6 +48,14 @@ section.group-card .header button a span {
   background-color: var(--clr-200);
 }
 
+section.group-card .header button a:hover {
+  text-decoration: underline;
+}
+
+section.group-card .header button a:hover span {
+  background-color: #fa9632;
+}
+
 section.group-card .header button a span img {
   width: 24px;
   height: 24px;
